@@ -1,7 +1,7 @@
 # LoginRegistrationProject MERN
 Creating a Demo website using HTML, CSS, JavaScript, Bootstrap, React.js, Express.js, Node.js and with some packages and there are some featuring like user authentication with login, registration, and change password functionality. Users can upload profile images, and the platform supports image uploads with a simple, user-friendly interface.
 
-# backend Packages 
+# Backend Packages 
 npm init -y <br/>
 npm i -D nodemon <br/>
 npm i mongoose <br/>
