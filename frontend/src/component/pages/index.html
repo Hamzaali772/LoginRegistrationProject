@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project List with Animated Counter</title>
+</head>
+<body>
+
+<h1>Project List with Animated Counter</h1>
+
+<ul id="projectList">
+    <!-- Project number will be dynamically updated here -->
+</ul>
+<span id="i"></span>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Array Elements</title>
+</head>
+<body>
+
+<div id="i"></div>
+
+<script>
+    let i = 0;
+    let y = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    function displayNextElement() {
+        if (i < y.length) {
+            document.getElementById("i").innerHTML = y[i];
+            i++;
+
+            // Call the function again after a delay (e.g., 1000 milliseconds or 1 second)
+            setTimeout(displayNextElement, 100);
+        }
+    }
+
+    // Start the display process
+    displayNextElement();
+</script>
+
+</body>
+</html>
+
+
+</body>
+</html>

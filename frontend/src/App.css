@@ -1,0 +1,38 @@
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+#root{
+    overflow-x: hidden;
+}
+.custom-Home{
+    background-repeat: no-repeat;
+    background-position: 100% 100% ;
+    background-size: cover;
+}
+.custome-review{
+    padding: 3rem;
+    border-radius: 10px;
+    background-image:linear-gradient(#2274f889,#2872ED);
+    margin: 1rem auto 0rem;
+}
+.svg{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+textarea{
+    outline: 1px solid #aaa;
+    box-shadow: none;
+    border-radius: 3px;
+    border: none;
+    width:100%;
+    height:150px;
+    padding:1rem
+}
+textarea:hover{
+    outline:1px solid black;
+}
+textarea:focus{
+    outline:2px solid #327ffb;
+}
