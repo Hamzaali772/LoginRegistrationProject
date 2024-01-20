@@ -2,14 +2,25 @@
 Demo website featuring user authentication with login, registration, and change password functionality. Users can upload profile images, and the platform supports image uploads with a simple, user-friendly interface.
 
 # backend Packages 
-npm init -y
-npm i -D nodemon
-npm i mongoose
-npm i express@5.0.0-alpha.8
-npm i cors 
-npm i dotenv
-npm i jsonwebtoken
-npm i bcrypt /
+npm init -y <br/>
+npm i -D nodemon <br/>
+npm i mongoose <br/>
+npm i express@5.0.0-alpha.8 <br/>
+npm i cors <br/>
+npm i dotenv <br/>
+npm i jsonwebtoken <br/>
+npm i bcrypt <br/>
+
+# frontend package
+
+npm i  <br/>
+npm i bootstrap <br/>
+npm i react-router-dom <br/>
+npm install @reduxjs/toolkit <br/>
+npm install react-redux <br/>
+npm install @mui/material @emotion/react @emotion/styled <br/>
+npm install @mui/material @mui/styled-engine-sc styled-components <br/>
+npm install @mui/icons-material <br/>
 
 # To Run this Project follow below:
 npm i nodemodule in backend<br/>
